@@ -16,7 +16,7 @@ export function AboutSection() {
   const inView = useInView(ref, { once: true, margin: "-15%" });
 
   return (
-    <section id="about" ref={ref} className="py-32 px-6 relative overflow-hidden">
+    <section id="about" ref={ref} className="py-20 sm:py-32 px-4 sm:px-6 relative overflow-hidden">
       {/* Background accent */}
       <div className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-[600px] h-[600px] rounded-full bg-accent/[0.03] blur-3xl pointer-events-none" />
 
@@ -39,7 +39,7 @@ export function AboutSection() {
           </motion.span>
         </div>
 
-        <div className="grid grid-cols-1 lg:grid-cols-2 gap-16 items-start">
+        <div className="grid grid-cols-1 lg:grid-cols-2 gap-10 sm:gap-12 lg:gap-16 items-start">
           {/* Left — heading */}
           <div>
             <div className="overflow-hidden mb-6">
@@ -71,12 +71,12 @@ export function AboutSection() {
               initial={{ opacity: 0, y: 20 }}
               animate={inView ? { opacity: 1, y: 0 } : {}}
               transition={{ duration: 0.7, delay: 0.8 }}
-              className="grid grid-cols-4 gap-4 mt-12"
+              className="grid grid-cols-4 gap-3 sm:gap-4 mt-10 sm:mt-12"
             >
               {STATS.map((s) => (
-                <div key={s.label} className="border-t border-border pt-4">
-                  <div className="text-3xl font-bold text-accent mb-1">{s.value}</div>
-                  <div className="text-text-muted text-[9px] tracking-widest uppercase">{s.label}</div>
+                <div key={s.label} className="border-t border-border pt-3 sm:pt-4">
+                  <div className="text-2xl sm:text-3xl font-bold text-accent mb-1">{s.value}</div>
+                  <div className="text-text-muted text-[8px] sm:text-[9px] tracking-widest uppercase">{s.label}</div>
                 </div>
               ))}
             </motion.div>
@@ -88,7 +88,7 @@ export function AboutSection() {
             animate={inView ? { opacity: 1, x: 0 } : {}}
             transition={{ duration: 0.9, delay: 0.5, ease: [0.16, 1, 0.3, 1] }}
           >
-            <div className="glass-card p-8 space-y-6">
+            <div className="glass-card p-5 sm:p-8 space-y-5 sm:space-y-6">
               <p className="text-text-secondary text-sm leading-relaxed">
                 <span className="text-text-primary font-medium">FUSION X '26</span> is
                 KGISL's flagship intercollegiate technical symposium — an elite,

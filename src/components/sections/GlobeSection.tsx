@@ -29,7 +29,7 @@ export function GlobeSection() {
       <div className="absolute inset-0 bg-gradient-to-b from-background via-transparent to-transparent z-10" />
 
       {/* Content */}
-      <div className="relative z-20 h-full flex flex-col items-center justify-center text-center px-6">
+      <div className="relative z-20 h-full flex flex-col items-center justify-center text-center px-4 sm:px-6">
         <div className="flex items-center gap-4 mb-6">
           <div className="w-8 h-px bg-accent/60" />
           <motion.span

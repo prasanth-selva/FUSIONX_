@@ -11,7 +11,7 @@ export function RulesSection() {
   const [active, setActive] = useState<number | null>(null);
 
   return (
-    <section id="rules" ref={ref} className="py-24 px-6 bg-surface relative">
+    <section id="rules" ref={ref} className="py-16 sm:py-24 px-4 sm:px-6 bg-surface relative">
       <div className="absolute inset-0 bg-gradient-to-b from-background via-transparent to-background pointer-events-none" />
 
       <div className="max-w-5xl mx-auto relative">
@@ -119,7 +119,7 @@ function RuleAccordion({
             transition={{ duration: 0.35, ease: [0.16, 1, 0.3, 1] }}
             className="overflow-hidden"
           >
-            <div className="pb-6 pl-10">
+            <div className="pb-5 sm:pb-6 pl-6 sm:pl-10">
               <p className="text-text-secondary text-sm leading-relaxed mb-4">
                 {event.description}
               </p>

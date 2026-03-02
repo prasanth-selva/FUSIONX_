@@ -38,7 +38,7 @@ export function AudioPlayer() {
       transition={{ duration: 0.7, delay: 2.5 }}
       onClick={toggle}
       title={playing ? "Pause music" : "Play ambient music"}
-      className="fixed bottom-6 right-6 z-50 flex items-center gap-3 px-4 py-3
+      className="fixed bottom-4 right-4 sm:bottom-6 sm:right-6 z-50 flex items-center gap-2 sm:gap-3 px-3 sm:px-4 py-2.5 sm:py-3
         bg-surface/90 backdrop-blur-md border hover:border-accent
         transition-all duration-300 group cursor-pointer select-none"
       style={{
