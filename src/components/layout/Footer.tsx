@@ -10,7 +10,7 @@ const FOOTER_LINKS = [
 ];
 
 const MAPS_EMBED =
-  "https://maps.google.com/maps?q=Kumaraguru+Institute+Of+Technology+%26+Engineering+Coimbatore&t=&z=15&ie=UTF8&iwloc=&output=embed";
+  "https://maps.google.com/maps?q=KGISL+Institute+of+Technology+Coimbatore&t=&z=15&ie=UTF8&iwloc=&output=embed";
 const MAPS_LINK = "https://maps.app.goo.gl/fJEHESX4u2MJrBaJA";
 
 export function Footer() {
@@ -37,10 +37,10 @@ export function Footer() {
             {/* Info */}
             <div>
               <h3 className="text-text-primary text-xl sm:text-2xl font-bold tracking-tight mb-2">
-                KiTE Campus
+                KGISL Institute of Technology
               </h3>
               <p className="text-text-secondary text-sm leading-relaxed mb-5">
-                Kumaraguru Institute of Technology &amp; Engineering,
+                KGISL Institute of Technology,
                 Coimbatore, Tamil Nadu — March 27, 2026.
               </p>
               <a
@@ -75,7 +75,7 @@ export function Footer() {
                 allowFullScreen
                 loading="lazy"
                 referrerPolicy="no-referrer-when-downgrade"
-                title="KiTE Campus Location"
+                title="KGISL Campus Location"
               />
             </div>
           </div>
@@ -94,12 +94,12 @@ export function Footer() {
                   Fusion X '26
                 </div>
                 <div className="text-text-muted text-[9px] tracking-ultrawide uppercase">
-                  KiTE Symposium
+                  KGISL Symposium
                 </div>
               </div>
             </div>
             <p className="text-text-muted text-xs leading-relaxed max-w-xs">
-              Kumaraguru Institute of Technology &amp; Engineering's premier
+              KGISL Institute of Technology's premier
               intercollegiate technical symposium. March 27, 2026.
             </p>
           </div>
@@ -130,7 +130,7 @@ export function Footer() {
             </h4>
             <ul className="space-y-3 text-text-muted text-xs leading-relaxed">
               <li><span className="text-text-secondary">Date:</span> March 27, 2026</li>
-              <li><span className="text-text-secondary">Venue:</span> KiTE Campus, Coimbatore</li>
+              <li><span className="text-text-secondary">Venue:</span> KGISL Campus, Coimbatore</li>
               <li><span className="text-text-secondary">Events:</span> 10 (8 Technical + 2 Non-Tech)</li>
               <li><span className="text-text-secondary">Limit:</span> Max 2 events per participant</li>
             </ul>
@@ -140,7 +140,7 @@ export function Footer() {
         {/* Bottom bar */}
         <div className="border-t border-border pt-6 flex flex-col sm:flex-row items-center justify-between gap-4">
           <p className="text-text-muted text-[9px] tracking-widest uppercase">
-            © 2026 KiTE. All rights reserved.
+            © 2026 KGISL. All rights reserved.
           </p>
           <p className="text-text-muted text-[9px] tracking-widest uppercase">
             Where Innovation Takes Flight

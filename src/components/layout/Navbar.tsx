@@ -45,7 +45,7 @@ export function Navbar() {
                 Fusion X
               </span>
               <span className="text-text-secondary text-[10px] tracking-ultrawide uppercase">
-                KiTE '26
+                KGISL '26
               </span>
             </div>
           </a>

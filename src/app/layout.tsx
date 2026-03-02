@@ -5,18 +5,18 @@ import "./globals.css";
 import { LenisProvider } from "@/components/providers/LenisProvider";
 
 export const metadata: Metadata = {
-  title: "FUSION X '26 — KiTE Intercollegiate Technical Symposium",
+  title: "FUSION X '26 — KGISL Intercollegiate Technical Symposium",
   description:
-    "Where Innovation Takes Flight. KiTE's Premier Intercollegiate Technical Symposium on March 27, 2026. Compete. Create. Conquer.",
+    "Where Innovation Takes Flight. KGISL's Premier Intercollegiate Technical Symposium on March 27, 2026. Compete. Create. Conquer.",
   openGraph: {
-    title: "FUSION X '26 — KiTE",
+    title: "FUSION X '26 — KGISL",
     description:
-      "Where Innovation Takes Flight. KiTE's Premier Intercollegiate Technical Symposium on March 27, 2026.",
+      "Where Innovation Takes Flight. KGISL's Premier Intercollegiate Technical Symposium on March 27, 2026.",
     type: "website",
   },
   keywords: [
     "FUSION X",
-    "KiTE",
+    "KGISL",
     "technical symposium",
     "intercollegiate",
     "2026",

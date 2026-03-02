@@ -133,7 +133,7 @@ export function CountdownSection() {
           transition={{ duration: 0.6, delay: 0.9 }}
           className="text-text-muted text-[10px] tracking-widest uppercase mt-10"
         >
-          March 27, 2026 — KiTE Campus
+          March 27, 2026 — KGISL Campus
         </motion.p>
       </div>
     </section>

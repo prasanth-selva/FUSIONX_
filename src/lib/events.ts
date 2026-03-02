@@ -1,9 +1,9 @@
 export const SYMPOSIUM_DATE = new Date("2026-03-27T09:00:00+05:30");
 
-export const COLLEGE_NAME = "KiTE";
+export const COLLEGE_NAME = "KGISL";
 export const SYMPOSIUM_NAME = "FUSION X '26";
 export const TAGLINE = "WHERE INNOVATION TAKES FLIGHT";
-export const SUB_TAGLINE = "KiTE's Premier Intercollegiate Technical Symposium";
+export const SUB_TAGLINE = "KGISL's Premier Intercollegiate Technical Symposium";
 export const HERO_DATE_DISPLAY = "MARCH 27, 2026";
 
 export const SEQUENCE_1_COUNT = 147; // Frames 001-147 → Hero Cloud

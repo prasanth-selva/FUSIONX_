@@ -91,7 +91,7 @@ export function AboutSection() {
             <div className="glass-card p-8 space-y-6">
               <p className="text-text-secondary text-sm leading-relaxed">
                 <span className="text-text-primary font-medium">FUSION X '26</span> is
-                KiTE's flagship intercollegiate technical symposium — an elite,
+                KGISL's flagship intercollegiate technical symposium — an elite,
                 single-day competition where the best minds across institutions
                 converge to think, build, and compete.
               </p>
