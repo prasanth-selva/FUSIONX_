@@ -12,10 +12,6 @@ node_modules/
 .env.test.local
 .env.production.local
 
-# Large binary assets — stored separately, not in git
-public/sequence-1/
-public/sequence-2/
-
 # MacOS
 .DS_Store
 
