@@ -21,6 +21,7 @@ export interface SymposiumEvent {
   category: EventCategory;
   maxMembers: string;
   icon: string;
+  image: string;
   description: string;
   color: string;
   rules: string[];
@@ -34,6 +35,7 @@ export const EVENTS: SymposiumEvent[] = [
     category: "technical",
     maxMembers: "Max. 3 Members",
     icon: "📄",
+    image: "https://images.unsplash.com/photo-1568667256549-094345857637?w=600&q=70&auto=format&fit=crop",
     description:
       "Present your cutting-edge research and ideas to a panel of expert judges. Demonstrate depth of knowledge and scientific rigor.",
     color: "#c8a96e",
@@ -51,6 +53,7 @@ export const EVENTS: SymposiumEvent[] = [
     category: "technical",
     maxMembers: "Max. 3 Members",
     icon: "🔬",
+    image: "https://images.unsplash.com/photo-1581092160607-ee22731c9adb?w=600&q=70&auto=format&fit=crop",
     description:
       "Showcase your working prototype or simulation. Innovation, practicality, and technical depth will be evaluated by industry experts.",
     color: "#c8a96e",
@@ -69,6 +72,7 @@ export const EVENTS: SymposiumEvent[] = [
     category: "technical",
     maxMembers: "Max. 2 Members",
     icon: "🖼️",
+    image: "https://images.unsplash.com/photo-1611532736597-de2d4265fba3?w=600&q=70&auto=format&fit=crop",
     description:
       "Visual storytelling meets technical precision. Present complex ideas through a beautifully crafted A1 poster.",
     color: "#c8a96e",
@@ -86,6 +90,7 @@ export const EVENTS: SymposiumEvent[] = [
     category: "technical",
     maxMembers: "2 Members",
     icon: "🧠",
+    image: "https://images.unsplash.com/photo-1606326608606-aa0b62935f2b?w=600&q=70&auto=format&fit=crop",
     description:
       "Test your knowledge across domains in a fast-paced Kahoot-based challenge. No AI allowed — pure intellect wins here.",
     color: "#c8a96e",
@@ -102,6 +107,7 @@ export const EVENTS: SymposiumEvent[] = [
     category: "technical",
     maxMembers: "2–4 Members",
     icon: "⚡",
+    image: "https://images.unsplash.com/photo-1504384764586-bb4cdc1707b0?w=600&q=70&auto=format&fit=crop",
     description:
       "A rapid-fire vibe-coding hackathon. A problem will be given on spot — you have 1 hour to build a complete solution. AI is your co-pilot.",
     color: "#c8a96e",
@@ -119,6 +125,7 @@ export const EVENTS: SymposiumEvent[] = [
     category: "technical",
     maxMembers: "2–4 Members",
     icon: "🔌",
+    image: "https://images.unsplash.com/photo-1518770660439-4636190af475?w=600&q=70&auto=format&fit=crop",
     description:
       "Circuit function revealed on the spot. Design and simulate using TinkerCAD or Wokwi — no AI allowed. Pure engineering skill.",
     color: "#c8a96e",
@@ -135,6 +142,7 @@ export const EVENTS: SymposiumEvent[] = [
     category: "technical",
     maxMembers: "Max. 3 Members",
     icon: "🎨",
+    image: "https://images.unsplash.com/photo-1581291518857-4e27b48ff24e?w=600&q=70&auto=format&fit=crop",
     description:
       "Design a stunning and user-centric interface in 60 minutes. Theme announced on the spot. Tools: Figma, Adobe XD, or Canva.",
     color: "#c8a96e",
@@ -152,6 +160,7 @@ export const EVENTS: SymposiumEvent[] = [
     category: "technical",
     maxMembers: "Max. 3 Members",
     icon: "✏️",
+    image: "https://images.unsplash.com/photo-1626785774573-4b799315345d?w=600&q=70&auto=format&fit=crop",
     description:
       "Brand a startup in 60 minutes. Create a compelling logo and 100-word brand explanation. AI-generated logos are not allowed.",
     color: "#c8a96e",
@@ -170,6 +179,7 @@ export const EVENTS: SymposiumEvent[] = [
     category: "non-technical",
     maxMembers: "Max. 4 Members",
     icon: "🎮",
+    image: "https://images.unsplash.com/photo-1542751371-adc38448a05e?w=600&q=70&auto=format&fit=crop",
     description:
       "Battle Grounds Mobile India — squad up and dominate the battleground. Only phones permitted. Show your tactical supremacy.",
     color: "#6e4fc8",
@@ -185,6 +195,7 @@ export const EVENTS: SymposiumEvent[] = [
     category: "non-technical",
     maxMembers: "Max. 4 Members",
     icon: "🔥",
+    image: "https://images.unsplash.com/photo-1511512578047-dfb367046420?w=600&q=70&auto=format&fit=crop",
     description:
       "Garena Free Fire battle royale showdown. Form your squad, survive, and claim the Booyah! Mobile devices only.",
     color: "#6e4fc8",
