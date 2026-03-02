@@ -53,7 +53,7 @@ export const EVENTS: SymposiumEvent[] = [
     category: "technical",
     maxMembers: "Max. 3 Members",
     icon: "🔬",
-    image: "https://images.unsplash.com/photo-1581092160607-ee22731c9adb?w=600&q=70&auto=format&fit=crop",
+    image: "https://images.unsplash.com/photo-1559028012-481c04fa702d?w=600&q=70&auto=format&fit=crop",
     description:
       "Showcase your working prototype or simulation. Innovation, practicality, and technical depth will be evaluated by industry experts.",
     color: "#c8a96e",

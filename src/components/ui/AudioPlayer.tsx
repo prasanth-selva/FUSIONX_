@@ -8,9 +8,9 @@ export function AudioPlayer() {
   const [playing, setPlaying] = useState(false);
 
   useEffect(() => {
-    const audio = new Audio("/eminence.mp3");
+    const audio = new Audio("/inspiring.mp3");
     audio.loop = true;
-    audio.volume = 0.32;
+    audio.volume = 0.38;
     audio.preload = "auto";
     audioRef.current = audio;
 
@@ -37,7 +37,7 @@ export function AudioPlayer() {
       animate={{ opacity: 1, y: 0 }}
       transition={{ duration: 0.7, delay: 2.5 }}
       onClick={toggle}
-      title={playing ? "Pause EMINENCE" : "Play EMINENCE"}
+      title={playing ? "Pause music" : "Play ambient music"}
       className="fixed bottom-6 right-6 z-50 flex items-center gap-3 px-4 py-3
         bg-surface/90 backdrop-blur-md border hover:border-accent
         transition-all duration-300 group cursor-pointer select-none"
@@ -80,7 +80,7 @@ export function AudioPlayer() {
         </span>
         <span className="text-[10px] tracking-widest uppercase font-medium mt-0.5"
           style={{ color: playing ? "#c8a96e" : "#7a776e" }}>
-          EMINENCE
+          INSPIRING
         </span>
       </div>
 
