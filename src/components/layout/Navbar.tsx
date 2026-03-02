@@ -2,6 +2,7 @@
 
 import { useEffect, useState } from "react";
 import { motion, AnimatePresence } from "framer-motion";
+import Image from "next/image";
 import { cn } from "@/lib/utils";
 
 const NAV_LINKS = [
@@ -37,8 +38,15 @@ export function Navbar() {
         <div className="max-w-7xl mx-auto px-4 sm:px-6 flex items-center justify-between">
           {/* Logo */}
           <a href="#" className="flex items-center gap-3 group">
-            <div className="w-8 h-8 rounded-full bg-gradient-to-br from-accent to-accent-muted flex items-center justify-center text-background text-xs font-bold tracking-tight">
-              FX
+            <div className="w-9 h-9 rounded-full overflow-hidden flex-shrink-0 border border-accent/30 bg-surface">
+              <Image
+                src="/kite-logo.jpg"
+                alt="KGISL Logo"
+                width={36}
+                height={36}
+                className="w-full h-full object-cover"
+                priority
+              />
             </div>
             <div className="flex flex-col leading-none">
               <span className="text-text-primary text-sm font-semibold tracking-widest uppercase">

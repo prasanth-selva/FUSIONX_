@@ -1,6 +1,7 @@
 "use client";
 
 import { motion } from "framer-motion";
+import Image from "next/image";
 
 const FOOTER_LINKS = [
   { label: "Events", href: "#events" },
@@ -86,8 +87,14 @@ export function Footer() {
           {/* Brand */}
           <div>
             <div className="flex items-center gap-3 mb-4">
-              <div className="w-8 h-8 rounded-full bg-gradient-to-br from-accent to-accent-muted flex items-center justify-center text-background text-xs font-bold">
-                FX
+              <div className="w-10 h-10 rounded-full overflow-hidden flex-shrink-0 border border-accent/30 bg-surface">
+                <Image
+                  src="/kite-logo.jpg"
+                  alt="KGISL Logo"
+                  width={40}
+                  height={40}
+                  className="w-full h-full object-cover"
+                />
               </div>
               <div>
                 <div className="text-text-primary text-sm font-semibold tracking-widest uppercase">
