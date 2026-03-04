@@ -242,10 +242,16 @@ function EventModal({
               </div>
 
               <p
-                className="text-[9px] tracking-widest uppercase mb-4 font-semibold"
+                className="text-[9px] tracking-widest uppercase mb-1 font-semibold"
                 style={{ color: accentColor }}
               >
                 {event.maxMembers}
+              </p>
+              <p
+                className="text-[9px] tracking-widest uppercase mb-4 font-semibold flex items-center gap-1"
+                style={{ color: accentColor }}
+              >
+                🕐 {event.timing}
               </p>
 
               <p className="text-text-secondary text-sm leading-relaxed">

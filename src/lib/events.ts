@@ -20,6 +20,7 @@ export interface SymposiumEvent {
   name: string;
   category: EventCategory;
   maxMembers: string;
+  timing: string;
   icon: string;
   image: string;
   description: string;
@@ -34,6 +35,7 @@ export const EVENTS: SymposiumEvent[] = [
     name: "Paper Presentation",
     category: "technical",
     maxMembers: "Max. 3 Members",
+    timing: "9:00 AM – 1:00 PM",
     icon: "📄",
     image: "https://images.unsplash.com/photo-1568667256549-094345857637?w=600&q=70&auto=format&fit=crop",
     description:
@@ -52,6 +54,7 @@ export const EVENTS: SymposiumEvent[] = [
     name: "Project Expo",
     category: "technical",
     maxMembers: "Max. 3 Members",
+    timing: "9:00 AM – 11:00 AM",
     icon: "🔬",
     image: "https://images.unsplash.com/photo-1559028012-481c04fa702d?w=600&q=70&auto=format&fit=crop",
     description:
@@ -71,6 +74,7 @@ export const EVENTS: SymposiumEvent[] = [
     name: "Poster Presentation",
     category: "technical",
     maxMembers: "Max. 2 Members",
+    timing: "11:00 AM – 11:30 AM",
     icon: "🖼️",
     image: "https://images.unsplash.com/photo-1611532736597-de2d4265fba3?w=600&q=70&auto=format&fit=crop",
     description:
@@ -89,6 +93,7 @@ export const EVENTS: SymposiumEvent[] = [
     name: "Quiz",
     category: "technical",
     maxMembers: "2 Members",
+    timing: "11:00 AM – 12:00 PM",
     icon: "🧠",
     image: "https://images.unsplash.com/photo-1606326608606-aa0b62935f2b?w=600&q=70&auto=format&fit=crop",
     description:
@@ -106,6 +111,7 @@ export const EVENTS: SymposiumEvent[] = [
     name: "Vibathon",
     category: "technical",
     maxMembers: "2–4 Members",
+    timing: "11:00 AM – 11:45 AM",
     icon: "⚡",
     image: "https://images.unsplash.com/photo-1504384764586-bb4cdc1707b0?w=600&q=70&auto=format&fit=crop",
     description:
@@ -124,6 +130,7 @@ export const EVENTS: SymposiumEvent[] = [
     name: "Build a Circuit",
     category: "technical",
     maxMembers: "2–4 Members",
+    timing: "11:00 AM – 11:45 AM",
     icon: "🔌",
     image: "https://images.unsplash.com/photo-1518770660439-4636190af475?w=600&q=70&auto=format&fit=crop",
     description:
@@ -141,6 +148,7 @@ export const EVENTS: SymposiumEvent[] = [
     name: "UI/UX Design Challenge",
     category: "technical",
     maxMembers: "Max. 3 Members",
+    timing: "11:45 AM – 12:30 PM",
     icon: "🎨",
     image: "https://images.unsplash.com/photo-1581291518857-4e27b48ff24e?w=600&q=70&auto=format&fit=crop",
     description:
@@ -159,6 +167,7 @@ export const EVENTS: SymposiumEvent[] = [
     name: "Logo Design Challenge",
     category: "technical",
     maxMembers: "Max. 3 Members",
+    timing: "11:00 AM – 11:30 AM",
     icon: "✏️",
     image: "https://images.unsplash.com/photo-1626785774573-4b799315345d?w=600&q=70&auto=format&fit=crop",
     description:
@@ -178,6 +187,7 @@ export const EVENTS: SymposiumEvent[] = [
     name: "BGMI",
     category: "non-technical",
     maxMembers: "Max. 4 Members",
+    timing: "12:30 PM – 1:30 PM",
     icon: "🎮",
     image: "https://images.unsplash.com/photo-1542751371-adc38448a05e?w=600&q=70&auto=format&fit=crop",
     description:
@@ -194,6 +204,7 @@ export const EVENTS: SymposiumEvent[] = [
     name: "FREE FIRE",
     category: "non-technical",
     maxMembers: "Max. 4 Members",
+    timing: "12:30 PM – 1:30 PM",
     icon: "🔥",
     image: "https://images.unsplash.com/photo-1511512578047-dfb367046420?w=600&q=70&auto=format&fit=crop",
     description:

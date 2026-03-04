@@ -70,8 +70,11 @@ export function EventCard({ event, index, onClick }: EventCardProps) {
           {event.name}
         </motion.h3>
 
-        <p className="text-text-muted text-[9px] tracking-widest uppercase mb-3">
+        <p className="text-text-muted text-[9px] tracking-widest uppercase mb-1">
           {event.maxMembers}
+        </p>
+        <p className="text-text-muted text-[9px] tracking-widest uppercase mb-3">
+          🕐 {event.timing}
         </p>
 
         <p className="text-text-secondary text-xs leading-relaxed line-clamp-2 mb-4">
