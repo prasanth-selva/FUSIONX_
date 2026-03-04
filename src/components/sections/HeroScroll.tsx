@@ -89,7 +89,7 @@ export function HeroScroll() {
           >
             <div className="w-8 h-px bg-accent" />
             <span className="text-accent text-[10px] tracking-ultrawide uppercase">
-              KGISL Presents
+              KGiSL Institute of Technology Presents
             </span>
             <div className="w-8 h-px bg-accent" />
           </motion.div>

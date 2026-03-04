@@ -37,15 +37,22 @@ export function Navbar() {
         <div className="max-w-7xl mx-auto px-4 sm:px-6 flex items-center justify-between">
           {/* Logo */}
           <a href="#" className="flex items-center gap-3 group">
-            <div className="w-8 h-8 rounded-full bg-gradient-to-br from-accent to-accent-muted flex items-center justify-center text-background text-xs font-bold tracking-tight">
-              FX
+            <div className="w-10 h-10 rounded-full overflow-hidden flex-shrink-0 border border-accent/40 bg-surface shadow-md">
+              {/* eslint-disable-next-line @next/next/no-img-element */}
+              <img
+                src="/kite-logo.jpg"
+                alt="KGISL Logo"
+                width={40}
+                height={40}
+                className="w-full h-full object-cover"
+              />
             </div>
-            <div className="flex flex-col leading-none">
+            <div className="flex flex-col leading-none gap-0.5">
               <span className="text-text-primary text-sm font-semibold tracking-widest uppercase">
-                Fusion X
+                Fusion X '26
               </span>
-              <span className="text-text-secondary text-[10px] tracking-ultrawide uppercase">
-                KGISL '26
+              <span className="text-text-secondary text-[9px] tracking-wide uppercase">
+                KGiSL Institute of Technology
               </span>
             </div>
           </a>
@@ -62,7 +69,9 @@ export function Navbar() {
               </a>
             ))}
             <a
-              href="#register"
+              href="https://docs.google.com/forms/d/e/1FAIpQLSeTcH8QkwFr-tNHPsD0m39dyyXEb4v-DdFNv_f4p6Li3-7Q_Q/viewform"
+              target="_blank"
+              rel="noopener noreferrer"
               className="px-5 py-2 border border-accent text-accent text-xs tracking-widest uppercase hover:bg-accent hover:text-background transition-all duration-300"
             >
               Register Now
@@ -113,7 +122,9 @@ export function Navbar() {
                 </a>
               ))}
               <a
-                href="#register"
+                href="https://docs.google.com/forms/d/e/1FAIpQLSeTcH8QkwFr-tNHPsD0m39dyyXEb4v-DdFNv_f4p6Li3-7Q_Q/viewform"
+                target="_blank"
+                rel="noopener noreferrer"
                 onClick={() => setMenuOpen(false)}
                 className="text-center py-3 border border-accent text-accent text-xs tracking-widest uppercase hover:bg-accent hover:text-background transition-all duration-300"
               >
