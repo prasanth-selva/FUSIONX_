@@ -69,7 +69,9 @@ export function Navbar() {
               </a>
             ))}
             <a
-              href="#register"
+              href="https://docs.google.com/forms/d/e/1FAIpQLSeTcH8QkwFr-tNHPsD0m39dyyXEb4v-DdFNv_f4p6Li3-7Q_Q/viewform"
+              target="_blank"
+              rel="noopener noreferrer"
               className="px-5 py-2 border border-accent text-accent text-xs tracking-widest uppercase hover:bg-accent hover:text-background transition-all duration-300"
             >
               Register Now
@@ -120,7 +122,9 @@ export function Navbar() {
                 </a>
               ))}
               <a
-                href="#register"
+                href="https://docs.google.com/forms/d/e/1FAIpQLSeTcH8QkwFr-tNHPsD0m39dyyXEb4v-DdFNv_f4p6Li3-7Q_Q/viewform"
+                target="_blank"
+                rel="noopener noreferrer"
                 onClick={() => setMenuOpen(false)}
                 className="text-center py-3 border border-accent text-accent text-xs tracking-widest uppercase hover:bg-accent hover:text-background transition-all duration-300"
               >

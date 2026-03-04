@@ -116,7 +116,9 @@ export function CountdownSection() {
           className="flex flex-col sm:flex-row items-center justify-center gap-3 sm:gap-4 w-full"
         >
           <a
-            href="#events"
+            href="https://docs.google.com/forms/d/e/1FAIpQLSeTcH8QkwFr-tNHPsD0m39dyyXEb4v-DdFNv_f4p6Li3-7Q_Q/viewform"
+            target="_blank"
+            rel="noopener noreferrer"
             className="w-full sm:w-auto px-8 sm:px-10 py-4 bg-accent text-background text-xs tracking-widest uppercase font-semibold hover:bg-accent/90 transition-all duration-300 hover:shadow-[0_0_40px_rgba(200,169,110,0.3)] text-center"
           >
             Register Now
