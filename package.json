@@ -9,7 +9,7 @@
     "lint": "next lint"
   },
   "dependencies": {
-    "@studio-freight/lenis": "^1.0.42",
+    "lenis": "^1.1.14",
     "clsx": "^2.1.1",
     "framer-motion": "^11.3.8",
     "geist": "^1.7.0",
