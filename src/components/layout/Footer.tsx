@@ -82,8 +82,8 @@ export function Footer() {
           </div>
         </motion.div>
 
-        {/* ── Grid: brand / links / details ── */}
-        <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-8 sm:gap-10 mb-12 border-t border-border pt-12">
+        {/* ── Grid: brand / links / details / contact ── */}
+        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-8 sm:gap-10 mb-12 border-t border-border pt-12">
           {/* Brand */}
           <div>
             <div className="flex items-center gap-3 mb-4">
@@ -141,6 +141,67 @@ export function Footer() {
               <li><span className="text-text-secondary">Events:</span> 10 (8 Technical + 2 Non-Tech)</li>
               <li><span className="text-text-secondary">Limit:</span> Max 2 events per participant</li>
             </ul>
+          </div>
+
+          {/* Contact */}
+          <div>
+            <h4 className="text-[9px] tracking-ultrawide uppercase text-accent mb-5">
+              Contact
+            </h4>
+            <div className="space-y-5">
+              <div>
+                <p className="text-[9px] tracking-ultrawide uppercase text-text-secondary mb-2">
+                  Student Incharge
+                </p>
+                <ul className="space-y-2 text-text-muted text-xs leading-relaxed">
+                  <li>
+                    <span className="text-text-secondary block">Mr. Vikaash</span>
+                    <a
+                      href="tel:+919843269706"
+                      className="hover:text-accent transition-colors duration-200"
+                    >
+                      +91 98432 69706
+                    </a>
+                    <span className="ml-1 text-[9px] text-accent/70 uppercase tracking-wider">Chairman</span>
+                  </li>
+                  <li>
+                    <span className="text-text-secondary block">Mr. Prasanth</span>
+                    <a
+                      href="tel:+919629365093"
+                      className="hover:text-accent transition-colors duration-200"
+                    >
+                      +91 96293 65093
+                    </a>
+                    <span className="ml-1 text-[9px] text-accent/70 uppercase tracking-wider">Vice Chairman</span>
+                  </li>
+                </ul>
+              </div>
+              <div>
+                <p className="text-[9px] tracking-ultrawide uppercase text-text-secondary mb-2">
+                  Faculty Incharge
+                </p>
+                <ul className="space-y-2 text-text-muted text-xs leading-relaxed">
+                  <li>
+                    <span className="text-text-secondary block">Dr. Rohini</span>
+                    <a
+                      href="tel:+919629002227"
+                      className="hover:text-accent transition-colors duration-200"
+                    >
+                      +91 96290 02227
+                    </a>
+                  </li>
+                  <li>
+                    <span className="text-text-secondary block">Dr. Krishnaraj</span>
+                    <a
+                      href="tel:+917339671429"
+                      className="hover:text-accent transition-colors duration-200"
+                    >
+                      +91 73396 71429
+                    </a>
+                  </li>
+                </ul>
+              </div>
+            </div>
           </div>
         </div>
 
