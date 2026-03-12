@@ -138,9 +138,44 @@ export function Footer() {
             <ul className="space-y-3 text-text-muted text-xs leading-relaxed">
               <li><span className="text-text-secondary">Date:</span> March 27, 2026</li>
               <li><span className="text-text-secondary">Venue:</span> KGISL Campus, Coimbatore</li>
+              <li><span className="text-text-secondary">Reg. Closes:</span> March 24, 2026</li>
               <li><span className="text-text-secondary">Events:</span> 10 (8 Technical + 2 Non-Tech)</li>
               <li><span className="text-text-secondary">Limit:</span> Max 2 events per participant</li>
             </ul>
+
+            <div className="mt-6">
+              <h4 className="text-[9px] tracking-ultrawide uppercase text-accent mb-4">
+                Stall Inquiries
+              </h4>
+              <ul className="space-y-2 text-text-muted text-xs leading-relaxed">
+                <li>
+                  <span className="text-text-secondary">KITE Vendors:</span>{" "}
+                  <span className="text-accent font-semibold">₹500</span>
+                </li>
+                <li>
+                  <span className="text-text-secondary">Other Vendors:</span>{" "}
+                  <span className="text-accent font-semibold">₹1,000</span>
+                </li>
+              </ul>
+              <p className="text-text-muted text-[10px] mt-3 leading-relaxed">
+                Set up your stall, showcase your products, and connect with hundreds of students.
+              </p>
+              <div className="mt-3 space-y-1">
+                <p className="text-[9px] tracking-ultrawide uppercase text-text-secondary">For Stall Bookings</p>
+                <a
+                  href="tel:+919843296706"
+                  className="text-text-muted text-xs hover:text-accent transition-colors duration-200 block"
+                >
+                  Mr. Vikaash — +91 98432 96706
+                </a>
+                <a
+                  href="tel:+919629365093"
+                  className="text-text-muted text-xs hover:text-accent transition-colors duration-200 block"
+                >
+                  Mr. Prasanth — +91 96293 65093
+                </a>
+              </div>
+            </div>
           </div>
 
           {/* Contact */}
@@ -157,10 +192,10 @@ export function Footer() {
                   <li>
                     <span className="text-text-secondary block">Mr. Vikaash</span>
                     <a
-                      href="tel:+919843269706"
+                      href="tel:+919843296706"
                       className="hover:text-accent transition-colors duration-200"
                     >
-                      +91 98432 69706
+                      +91 98432 96706
                     </a>
                     <span className="ml-1 text-[9px] text-accent/70 uppercase tracking-wider">Chairman</span>
                   </li>

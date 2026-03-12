@@ -46,6 +46,53 @@ export function PaymentSection() {
           </motion.h2>
         </div>
 
+        {/* Vendor Entry Fees Banner */}
+        <motion.div
+          initial={{ opacity: 0, y: 20 }}
+          animate={inView ? { opacity: 1, y: 0 } : {}}
+          transition={{ duration: 0.7, delay: 0.1 }}
+          className="mb-10 grid grid-cols-1 sm:grid-cols-3 gap-4 border border-accent/20 rounded p-6 bg-surface/40 backdrop-blur-sm"
+        >
+          <div className="sm:col-span-3 mb-2">
+            <p className="text-[9px] tracking-ultrawide uppercase text-accent mb-1">Vendor / Stall Entry Fees</p>
+            <p className="text-text-muted text-xs">Set up your stall at the Fusion X-26 marketplace — Registration closes <span className="text-accent font-semibold">March 24, 2026</span></p>
+          </div>
+          <div className="flex items-center gap-4 border border-border rounded p-4 bg-background/60">
+            <div className="w-8 h-8 rounded-full bg-accent/10 flex items-center justify-center flex-shrink-0">
+              <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.5" className="text-accent">
+                <circle cx="12" cy="12" r="10"/><path d="M12 6v6l4 2"/>
+              </svg>
+            </div>
+            <div>
+              <p className="text-text-secondary text-[10px] uppercase tracking-widest">KITE Vendors</p>
+              <p className="text-accent font-bold text-xl">₹500</p>
+            </div>
+          </div>
+          <div className="flex items-center gap-4 border border-border rounded p-4 bg-background/60">
+            <div className="w-8 h-8 rounded-full bg-accent/10 flex items-center justify-center flex-shrink-0">
+              <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.5" className="text-accent">
+                <rect x="2" y="7" width="20" height="14" rx="2"/><path d="M16 7V5a2 2 0 0 0-2-2h-4a2 2 0 0 0-2 2v2"/>
+              </svg>
+            </div>
+            <div>
+              <p className="text-text-secondary text-[10px] uppercase tracking-widest">Other Vendors</p>
+              <p className="text-accent font-bold text-xl">₹1,000</p>
+            </div>
+          </div>
+          <div className="flex items-center gap-4 border border-border rounded p-4 bg-background/60">
+            <div className="w-8 h-8 rounded-full bg-accent/10 flex items-center justify-center flex-shrink-0">
+              <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.5" className="text-accent">
+                <path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07A19.5 19.5 0 0 1 4.15 12 19.79 19.79 0 0 1 1.08 3.4 2 2 0 0 1 3.06 1.24h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L7.09 9.15a16 16 0 0 0 5.76 5.76l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 21 16z"/>
+              </svg>
+            </div>
+            <div>
+              <p className="text-text-secondary text-[10px] uppercase tracking-widest">Stall Inquiry</p>
+              <a href="tel:+919843296706" className="text-accent font-semibold text-xs hover:underline block">Mr. Vikaash: 98432 96706</a>
+              <a href="tel:+919629365093" className="text-accent/80 text-xs hover:underline block">Mr. Prasanth: 96293 65093</a>
+            </div>
+          </div>
+        </motion.div>
+
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-10 lg:gap-16 items-center">
           {/* QR Code */}
           <motion.div
