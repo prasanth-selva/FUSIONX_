@@ -88,7 +88,6 @@ export function PaymentSection() {
             <div>
               <p className="text-text-secondary text-[10px] uppercase tracking-widest mb-1">Stall Inquiry</p>
               <p className="text-[9px] uppercase tracking-widest text-accent/60 mb-0.5">Faculty Coordinator</p>
-              <a href="tel:+919629002227" className="text-accent font-semibold text-xs hover:underline block">Dr. Rohini: 96290 02227</a>
               <a href="tel:+917339671429" className="text-accent font-semibold text-xs hover:underline block">Dr. Krishnaraj: 73396 71429</a>
               <p className="text-[9px] uppercase tracking-widest text-accent/60 mt-2 mb-0.5">Student Coordinators</p>
               <a href="tel:+919843296706" className="text-accent/80 text-xs hover:underline block">Mr. Vikaash: 98432 96706</a>

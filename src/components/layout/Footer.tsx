@@ -163,12 +163,6 @@ export function Footer() {
               <div className="mt-3 space-y-1">
                 <p className="text-[9px] tracking-ultrawide uppercase text-text-secondary">Faculty Coordinator</p>
                 <a
-                  href="tel:+919629002227"
-                  className="text-accent text-xs hover:underline transition-colors duration-200 block font-semibold"
-                >
-                  Dr. Rohini — +91 96290 02227
-                </a>
-                <a
                   href="tel:+917339671429"
                   className="text-accent text-xs hover:underline transition-colors duration-200 block font-semibold"
                 >
