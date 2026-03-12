@@ -161,7 +161,20 @@ export function Footer() {
                 Set up your stall, showcase your products, and connect with hundreds of students.
               </p>
               <div className="mt-3 space-y-1">
-                <p className="text-[9px] tracking-ultrawide uppercase text-text-secondary">For Stall Bookings</p>
+                <p className="text-[9px] tracking-ultrawide uppercase text-text-secondary">Faculty Coordinator</p>
+                <a
+                  href="tel:+919629002227"
+                  className="text-accent text-xs hover:underline transition-colors duration-200 block font-semibold"
+                >
+                  Dr. Rohini — +91 96290 02227
+                </a>
+                <a
+                  href="tel:+917339671429"
+                  className="text-accent text-xs hover:underline transition-colors duration-200 block font-semibold"
+                >
+                  Dr. Krishnaraj — +91 73396 71429
+                </a>
+                <p className="text-[9px] tracking-ultrawide uppercase text-text-secondary mt-2">Student Coordinators</p>
                 <a
                   href="tel:+919843296706"
                   className="text-text-muted text-xs hover:text-accent transition-colors duration-200 block"
