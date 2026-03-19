@@ -147,39 +147,22 @@ export function Footer() {
               <h4 className="text-[9px] tracking-ultrawide uppercase text-accent mb-4">
                 Stall Inquiries
               </h4>
-              <ul className="space-y-2 text-text-muted text-xs leading-relaxed">
-                <li>
-                  <span className="text-text-secondary">KITE Vendors:</span>{" "}
-                  <span className="text-accent font-semibold">₹500</span>
-                </li>
-                <li>
-                  <span className="text-text-secondary">Other Vendors:</span>{" "}
-                  <span className="text-accent font-semibold">₹1,000</span>
-                </li>
-              </ul>
               <p className="text-text-muted text-[10px] mt-3 leading-relaxed">
-                Set up your stall, showcase your products, and connect with hundreds of students.
+                For stall inquiries, contact the faculty coordinators.
               </p>
               <div className="mt-3 space-y-1">
-                <p className="text-[9px] tracking-ultrawide uppercase text-text-secondary">Faculty Coordinator</p>
+                <p className="text-[9px] tracking-ultrawide uppercase text-text-secondary">Faculty Coordinators</p>
                 <a
                   href="tel:+917339671429"
                   className="text-accent text-xs hover:underline transition-colors duration-200 block font-semibold"
                 >
                   Dr. Krishnaraj — +91 73396 71429
                 </a>
-                <p className="text-[9px] tracking-ultrawide uppercase text-text-secondary mt-2">Student Coordinators</p>
                 <a
-                  href="tel:+919843296706"
-                  className="text-text-muted text-xs hover:text-accent transition-colors duration-200 block"
+                  href="tel:+919629002227"
+                  className="text-accent text-xs hover:underline transition-colors duration-200 block font-semibold"
                 >
-                  Mr. Vikaash — +91 98432 96706
-                </a>
-                <a
-                  href="tel:+919629365093"
-                  className="text-text-muted text-xs hover:text-accent transition-colors duration-200 block"
-                >
-                  Mr. Prasanth — +91 96293 65093
+                  Dr. Rohini — +91 96290 02227
                 </a>
               </div>
             </div>

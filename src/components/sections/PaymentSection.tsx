@@ -51,33 +51,11 @@ export function PaymentSection() {
           initial={{ opacity: 0, y: 20 }}
           animate={inView ? { opacity: 1, y: 0 } : {}}
           transition={{ duration: 0.7, delay: 0.1 }}
-          className="mb-10 grid grid-cols-1 sm:grid-cols-3 gap-4 border border-accent/20 rounded p-6 bg-surface/40 backdrop-blur-sm"
+          className="mb-10 grid grid-cols-1 gap-4 border border-accent/20 rounded p-6 bg-surface/40 backdrop-blur-sm"
         >
-          <div className="sm:col-span-3 mb-2">
-            <p className="text-[9px] tracking-ultrawide uppercase text-accent mb-1">Vendor / Stall Entry Fees</p>
-            <p className="text-text-muted text-xs">Set up your stall at the Fusion X-26 marketplace — Registration closes <span className="text-accent font-semibold">March 24, 2026</span></p>
-          </div>
-          <div className="flex items-center gap-4 border border-border rounded p-4 bg-background/60">
-            <div className="w-8 h-8 rounded-full bg-accent/10 flex items-center justify-center flex-shrink-0">
-              <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.5" className="text-accent">
-                <circle cx="12" cy="12" r="10"/><path d="M12 6v6l4 2"/>
-              </svg>
-            </div>
-            <div>
-              <p className="text-text-secondary text-[10px] uppercase tracking-widest">KITE Vendors</p>
-              <p className="text-accent font-bold text-xl">₹500</p>
-            </div>
-          </div>
-          <div className="flex items-center gap-4 border border-border rounded p-4 bg-background/60">
-            <div className="w-8 h-8 rounded-full bg-accent/10 flex items-center justify-center flex-shrink-0">
-              <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.5" className="text-accent">
-                <rect x="2" y="7" width="20" height="14" rx="2"/><path d="M16 7V5a2 2 0 0 0-2-2h-4a2 2 0 0 0-2 2v2"/>
-              </svg>
-            </div>
-            <div>
-              <p className="text-text-secondary text-[10px] uppercase tracking-widest">Other Vendors</p>
-              <p className="text-accent font-bold text-xl">₹1,000</p>
-            </div>
+          <div className="mb-2">
+            <p className="text-[9px] tracking-ultrawide uppercase text-accent mb-1">Stall Inquiries</p>
+            <p className="text-text-muted text-xs">For stall inquiries, contact the faculty coordinators below.</p>
           </div>
           <div className="flex items-center gap-4 border border-border rounded p-4 bg-background/60">
             <div className="w-8 h-8 rounded-full bg-accent/10 flex items-center justify-center flex-shrink-0">
@@ -89,9 +67,7 @@ export function PaymentSection() {
               <p className="text-text-secondary text-[10px] uppercase tracking-widest mb-1">Stall Inquiry</p>
               <p className="text-[9px] uppercase tracking-widest text-accent/60 mb-0.5">Faculty Coordinator</p>
               <a href="tel:+917339671429" className="text-accent font-semibold text-xs hover:underline block">Dr. Krishnaraj: 73396 71429</a>
-              <p className="text-[9px] uppercase tracking-widest text-accent/60 mt-2 mb-0.5">Student Coordinators</p>
-              <a href="tel:+919843296706" className="text-accent/80 text-xs hover:underline block">Mr. Vikaash: 98432 96706</a>
-              <a href="tel:+919629365093" className="text-accent/80 text-xs hover:underline block">Mr. Prasanth: 96293 65093</a>
+              <a href="tel:+919629002227" className="text-accent font-semibold text-xs hover:underline block">Dr. Rohini: 96290 02227</a>
             </div>
           </div>
         </motion.div>
