@@ -1,0 +1,4 @@
+[submodule "fusionx-kite-26"]
+	path = fusionx-kite-26
+	url = https://github.com/prasanth-selva/FUSIONX-KITE.git
+	branch = master

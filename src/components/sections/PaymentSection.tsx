@@ -46,7 +46,7 @@ export function PaymentSection() {
           </motion.h2>
         </div>
 
-        {/* Vendor Entry Fees Banner */}
+        {/* Stall Inquiry Banner */}
         <motion.div
           initial={{ opacity: 0, y: 20 }}
           animate={inView ? { opacity: 1, y: 0 } : {}}
@@ -55,7 +55,7 @@ export function PaymentSection() {
         >
           <div className="mb-2">
             <p className="text-[9px] tracking-ultrawide uppercase text-accent mb-1">Stall Inquiries</p>
-            <p className="text-text-muted text-xs">For stall inquiries, contact the faculty coordinators below.</p>
+            <p className="text-text-muted text-xs">For stall inquiries, please contact faculty coordinators.</p>
           </div>
           <div className="flex items-center gap-4 border border-border rounded p-4 bg-background/60">
             <div className="w-8 h-8 rounded-full bg-accent/10 flex items-center justify-center flex-shrink-0">
@@ -65,9 +65,9 @@ export function PaymentSection() {
             </div>
             <div>
               <p className="text-text-secondary text-[10px] uppercase tracking-widest mb-1">Stall Inquiry</p>
-              <p className="text-[9px] uppercase tracking-widest text-accent/60 mb-0.5">Faculty Coordinator</p>
+              <p className="text-[9px] uppercase tracking-widest text-accent/60 mb-0.5">Faculty Coordinators</p>
+              <a href="tel:+919843296706" className="text-accent font-semibold text-xs hover:underline block">Dr. Rohini: 98432 96706</a>
               <a href="tel:+917339671429" className="text-accent font-semibold text-xs hover:underline block">Dr. Krishnaraj: 73396 71429</a>
-              <a href="tel:+919629002227" className="text-accent font-semibold text-xs hover:underline block">Dr. Rohini: 96290 02227</a>
             </div>
           </div>
         </motion.div>

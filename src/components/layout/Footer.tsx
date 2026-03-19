@@ -148,21 +148,21 @@ export function Footer() {
                 Stall Inquiries
               </h4>
               <p className="text-text-muted text-[10px] mt-3 leading-relaxed">
-                For stall inquiries, contact the faculty coordinators.
+                For stall inquiries, please contact faculty coordinators.
               </p>
               <div className="mt-3 space-y-1">
                 <p className="text-[9px] tracking-ultrawide uppercase text-text-secondary">Faculty Coordinators</p>
+                <a
+                  href="tel:+919843296706"
+                  className="text-accent text-xs hover:underline transition-colors duration-200 block font-semibold"
+                >
+                  Dr. Rohini — +91 98432 96706
+                </a>
                 <a
                   href="tel:+917339671429"
                   className="text-accent text-xs hover:underline transition-colors duration-200 block font-semibold"
                 >
                   Dr. Krishnaraj — +91 73396 71429
-                </a>
-                <a
-                  href="tel:+919629002227"
-                  className="text-accent text-xs hover:underline transition-colors duration-200 block font-semibold"
-                >
-                  Dr. Rohini — +91 96290 02227
                 </a>
               </div>
             </div>
