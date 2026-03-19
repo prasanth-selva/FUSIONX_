@@ -147,8 +147,6 @@ export function Footer() {
               <h4 className="text-[9px] tracking-ultrawide uppercase text-accent mb-4">
                 Stall Inquiries
               </h4>
-            
-              
               <p className="text-text-muted text-[10px] mt-3 leading-relaxed">
                 For stall inquiries, please contact faculty coordinators.
               </p>
